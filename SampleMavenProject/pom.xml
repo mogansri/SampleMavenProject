@@ -252,8 +252,7 @@
  <profiles>
     <profile>
       <id>coverage-per-test</id>
-      <sonar.junit.reportPaths>C:\Program Files (x86)\Jenkins\workspace\MavenProject\SampleMavenProject\target\jacoco.exec</sonar.junit.reportPaths>
-      <build>
+        <build>
         <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
