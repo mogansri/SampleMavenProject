@@ -16,4 +16,13 @@ public class MyUnitTest {
         assertEquals("onetwo", result);
 
     }
+	@Test
+	public void testConcatenate(){
+		MyUnit myUnit = new MyUnit();
+
+        String result = myUnit.concatenate("one", "two");
+
+        assertEquals("oneto", result);
+	}
+	
 }
