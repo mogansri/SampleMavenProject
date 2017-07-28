@@ -5,6 +5,13 @@
   <groupId>com.adp.SampleMavenProject</groupId>
   <artifactId>SampleMavenProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <properties>
+    <!-- Sonar -->
+    <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+    <sonar.jacoco.reportPath>C:\Program Files (x86)\Jenkins\workspace\MavenProject\SampleMavenProject\jacoco.exec</sonar.jacoco.reportPath>
+    <sonar.language>java</sonar.language>
+</properties>
   <dependencies>
     <dependency>
       <groupId>org.testng</groupId>
