@@ -17,7 +17,7 @@ public class MyUnitTest {
 
     }
 	@Test
-	public void testConcatenate(){
+	public void testConcatenate2(){
 		MyUnit myUnit = new MyUnit();
 
         String result = myUnit.concatenate("one", "two");
