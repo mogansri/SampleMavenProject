@@ -261,12 +261,37 @@
       <id>coverage-per-test</id>
         <build>
         <plugins>
+		<plugin>
+ <artifactid>maven-failsafe-plugin</artifactid>
+ <version>2.12</version>
+ <dependencies>
+  <dependency>
+   <groupid>org.apache.maven.surefire</groupid>
+   <artifactid>surefire-junit47</artifactid>
+   <version>2.12</version>
+  </dependency>
+ </dependencies>
+ <configuration>
+  <groups>com.adp.MyUnitTest.MyUnitTest</groups>
+ </configuration>
+ <executions>
+  <execution>
+   <goals>
+    <goal>integration-test</goal>
+   </goals>
+   <configuration>
+    <includes>
+     <include>**/*.class</include>
+    </includes>
+   </configuration>
+  </execution>
+ </executions>
+</plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.13</version>
             <configuration>
-		    <reportsDirectory>C:\Users\mogansri\Downloads\test-output\test-output</reportsDirectory>
               <properties>
                 <property>
                   <name>listener</name>
