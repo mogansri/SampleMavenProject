@@ -285,7 +285,7 @@
           <scope>test</scope>
         </dependency>
       </dependencies>
-    </profile>-->
+    </profile>
 	
-  </profiles>
+  </profiles>-->
 </project>
