@@ -262,12 +262,12 @@
         <build>
         <plugins>
 		<plugin>
- <artifactid>maven-failsafe-plugin</artifactid>
+ <artifactId>maven-failsafe-plugin</artifactId>
  <version>2.12</version>
  <dependencies>
   <dependency>
-   <groupid>org.apache.maven.surefire</groupid>
-   <artifactid>surefire-junit47</artifactid>
+   <groupId>org.apache.maven.surefire</groupId>
+   <artifactId>surefire-junit47</artifactId>
    <version>2.12</version>
   </dependency>
  </dependencies>
