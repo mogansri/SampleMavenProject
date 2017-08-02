@@ -261,8 +261,8 @@
       <id>coverage-per-test</id>
         <build>
         <plugins>
-		<plugin>
-<!-- <artifactId>maven-failsafe-plugin</artifactId>
+		<!--<plugin>
+ <artifactId>maven-failsafe-plugin</artifactId>
  <version>2.12</version>
  <dependencies>
   <dependency>
