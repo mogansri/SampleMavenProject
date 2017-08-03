@@ -19,7 +19,7 @@ public class MyIntegration {
         assertEquals("onetwo", result2);
         String result3 = myUnit.concatenate2("one", "two");
 
-        assertEquals("onetwo", result3);
+        assertEquals("onetw", result3);
 
         
     }
