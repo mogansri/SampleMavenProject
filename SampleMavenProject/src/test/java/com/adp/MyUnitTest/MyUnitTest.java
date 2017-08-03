@@ -20,7 +20,16 @@ public class MyUnitTest {
 	public void testConcatenate2(){
 		MyUnit myUnit = new MyUnit();
 
-        String result = myUnit.concatenate("one", "two");
+        String result = myUnit.concatenate3("one", "two");
+
+        assertEquals("onetwo", result);
+	}
+	
+	@Test
+	public void testConcatenate3(){
+		MyUnit myUnit = new MyUnit();
+
+        String result = myUnit.concatenate2("one", "two");
 
         assertEquals("onetwo", result);
 	}
