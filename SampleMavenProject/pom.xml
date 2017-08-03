@@ -5,6 +5,7 @@
   <groupId>com.adp.SampleMavenProject</groupId>
   <artifactId>SampleMavenProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	
     <properties>
     <!-- Sonar 
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
