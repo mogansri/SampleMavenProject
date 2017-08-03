@@ -284,7 +284,7 @@
           </execution>
         </executions>
 </plugin>
-          <plugin>
+          <!--<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.13</version>
@@ -296,7 +296,7 @@
                 </property>
               </properties>
             </configuration>
-          </plugin>
+          </plugin>-->
         </plugins>
       </build>
 
