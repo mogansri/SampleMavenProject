@@ -13,7 +13,7 @@ public class MyUnitTest {
 
         String result = myUnit.concatenate("one", "two");
 
-        assertEquals("onewo", result);
+        assertEquals("onetwo", result);
 
     }
 	@Test
@@ -22,7 +22,7 @@ public class MyUnitTest {
 
         String result = myUnit.concatenate("one", "two");
 
-        assertEquals("onewo", result);
+        assertEquals("onetwo", result);
 	}
 	
 }
